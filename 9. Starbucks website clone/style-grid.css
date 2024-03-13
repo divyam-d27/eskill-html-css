@@ -97,10 +97,13 @@ nav {
 .grid-container {
   margin: 3.2rem 0;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, auto);
+  /* grid-template-rows: 500px 300px 400px 600px 200px 700px 500px 400px; */
+
   row-gap: 20px;
 }
+
 .g-img-box,
 .g-text-box {
   display: flex;
@@ -138,6 +141,33 @@ nav {
   border-color: #1e3932;
 }
 
+/* .img-1 {
+  background-image: url(./assets/highlight-1.jpg);
+}
+.img-2 {
+  background-image: url(./assets/highlight-2.jpg);
+}
+.img-3 {
+  background-image: url(./assets/highlight-3.jpg);
+}
+.img-4 {
+  background-image: url(./assets/highlight-4.jpg);
+}
+.img-5 {
+  background-image: url(./assets/highlight-5.jpg);
+}
+.img-6 {
+  background-image: url(./assets/highlight-6.jpg);
+}
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6 {
+  background-position: center;
+  background-size: cover;
+} */
 .highlight-1 {
   background-color: #cfd84d;
 }

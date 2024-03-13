@@ -24,3 +24,6 @@ firefly.css
 *.njsproj
 *.sln
 *.sw?
+/screen-records
+/#💯
+/.vscode
